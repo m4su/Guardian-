@@ -280,12 +280,6 @@ static int GameNumBer;
 LPD3DXSPRITE lpSprite;	// スプライト
 LPD3DXFONT lpFont;		// フォント
 
-EnemyUP		EUP = { 290, EnemyUPY,	  60, 20, D3DCOLOR_ARGB(255, 255, 255, 255) ,1,T };		//敵棒上
-EnemyDOWN	EDW = { 290, EnemyDOWNY , 60, 20, D3DCOLOR_ARGB(255, 255, 255, 255) ,2,T };		//敵棒下
-EnemyLEFT	ELF = { EnemyLEFTX,  150, 20, 60, D3DCOLOR_ARGB(255, 255, 255, 255) ,3,T };		//敵棒左
-EnemyRIGHT	ERI = { EnemyRIGHTX, 150, 20, 60, D3DCOLOR_ARGB(255, 255, 255, 255) ,4,T };		//敵棒右
-
-
 
 
 #define	FVF_VERTEX (D3DFVF_XYZ | D3DFVF_DIFFUSE | D3DFVF_TEX1)
